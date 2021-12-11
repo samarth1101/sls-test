@@ -1,5 +1,0 @@
-com/test/UserApp.class
-com/test/api/UserController.class
-com/test/service/UserService.class
-com/test/service/UserServiceI.class
-com/test/domain/User.class
