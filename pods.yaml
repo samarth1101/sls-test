@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: firstspringboot
+spec:
+  selector:
+    matchLabels:
+      app: springbootapp
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: springbootapp
+    spec:
+      containers:
+      - name: firstspringbootpod
+        image: mahesh1101/firstspringbootimage:release0
